@@ -1,0 +1,325 @@
+/*
+ * MyBB: FA5Dark Frontend Theme 
+ *
+ * File: color_black.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #202020;
+}
+
+input[type=radio]:checked:after {
+    color: #A0A0A0;
+}
+
+input[type=checkbox]:checked:before {
+    color: #A0A0A0;
+}
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #A0A0A0;
+	-webkit-box-shadow: inset 0 1px 1px rgb(160,160,160), 0 0 8px rgba(160,160,160, 0.8);
+	box-shadow: inset 0 1px 1px rgba(160,160,160, 0.8), 0 0 8px rgba(160,160,160, 0.8);
+}
+
+input.login {
+	border: 5px solid #A0A0A0;
+
+}
+
+input.login:hover {
+	background: #A0A0A0;
+}
+
+i.lostpwd {
+   color: #A0A0A0;
+}
+
+i.printer {
+	color: #fff;
+}
+
+i.sendto {
+	color: #fff;
+}
+
+.tfoot a:hover, .tfoot a:active {
+	color: #A0A0A0;
+	text-decoration: underline;
+}
+
+ul.thread_tools li.printable:after {
+	color: #A0A0A0 !important;
+}
+
+ul.thread_tools li.sendthread:after {
+	color: #A0A0A0 !important;
+}
+
+ul.thread_tools li.subscription_add:after {
+	color: #A0A0A0 !important;
+}
+
+ul.thread_tools li.subscription_remove:after {
+	color: #A0A0A0 !important;
+}
+
+ul.thread_tools li.poll:after {
+	color: #A0A0A0 !important;
+}
+
+.trow1 a:hover, .trow1 a:active {
+	color: #fff !important;
+}
+
+.trow2 a:hover, .trow2 a:active {
+	color: #fff !important;
+}
+
+.usercp_nav_item::before {
+	color: #555 !important;
+}
+
+.modcp_nav_item:before{
+    color: #555 !important;
+}
+
+i.toplinks-portal {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-search {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-memberlist {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-calendar {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-help {
+	color: #FFFFFF !important;
+}
+
+i.panel-register {
+	color: #98C78B !important;
+}
+
+i.panel-login {
+	color: #C49A38 !important;
+}
+
+i.panel-logout {
+	color: #98C78B !important;
+}
+
+i.panel-usercp {
+	color: #555 !important;
+}
+
+i.panel-modcp {
+	color: #555 !important;
+}
+
+i.panel-admincp {
+	color: #555 !important;
+}
+
+.sharethread a:link {
+	color: #555 !important;
+}
+.sharethread a:visited {
+	color: #555 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #fff !important;
+}
+
+.progress_bar {
+	border: 1px solid #202020 !important;
+}
+
+.progress {
+	background: #202020  url(../../../themes/FA5Dark/colors/black_thead.png) center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #555 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #555 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #A0A0A0 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #555;
+}
+
+#logo {
+	background: #202020 url(../../../themes/FA5Dark/colors/black_header.png) top left repeat-x;
+	border-bottom: 1px solid #263c30;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+/*
+#panel .upper {
+	background: #dcdbdc url(../../../themes/FA5Dark/colors/black_tcat.png) repeat-x;
+	color: #000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #bbb;
+}
+
+#panel .upper a:link,
+#panel .upper a:visited,
+#panel .upper a:hover,
+#panel .upper a:active {
+	color: #000;
+}
+
+#panel input.textbox {
+	border-color: #ccc;
+}
+
+#panel input.button {
+	background: #202121 url(../../../themes/FA5Dark/colors/black_thead.png) top left repeat-x;
+	color: #fff;
+	border-color: #000;
+}
+*/
+
+#panel .upper {
+    background: #555;
+    background: -moz-linear-gradient(top, #555 0%, #333 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555), color-stop(100%, #333));
+    background: -webkit-linear-gradient(top, #555 0%, #333 100%);
+    background: -o-linear-gradient(top, #555 0%, #333 100%);
+    background: -ms-linear-gradient(top, #555 0%, #333 100%);
+    background: linear-gradient(top, #555 0%, #333 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#555', endColorstr='#333', GradientType=0 );
+    color: #fff;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 7px;
+    clear: both; 
+}
+#panel .upper a:link, #panel .upper a:visited, #panel .upper a:hover, #panel .upper a:active {
+    color: #FFF;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #555;
+}
+
+#panel .lower a:hover{
+    color: #555;
+}
+
+.forum_on {
+color: #A0A0A0;
+}
+
+.subforum_minion {
+	color: #A0A0A0;
+}
+
+.thead {
+	background: #202121 url(../../../themes/FA5Dark/colors/black_thead.png) top left repeat-x;
+	border-bottom: 1px solid #000;
+}
+/*
+.tcat {
+	background: #dcdbdc url(../../../themes/FA5Dark/colors/black_tcat.png) repeat-x;
+	color: #000000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #bbb;
+}
+
+.tcat a:link,
+.tcat a:visited,
+.tcat a:hover,
+.tcat a:active {
+	color: #000000;
+}
+*/
+
+.tcat {
+	font-size: 12px;
+    background: #555;
+    background: -moz-linear-gradient(top, #555 0%, #333 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555), color-stop(100%, #333));
+    background: -webkit-linear-gradient(top, #555 0%, #333 100%);
+    background: -o-linear-gradient(top, #555 0%, #333 100%);
+    background: -ms-linear-gradient(top, #555 0%, #333 100%);
+    background: linear-gradient(top, #555 0%, #333 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#555', endColorstr='#333', GradientType=0 );
+    color: #fff;
+    border-bottom: 1px solid #333;
+    padding: 7px;
+    clear: both;		
+}
+
+.tcat a:link {
+	color: #fff;
+}
+
+.tcat a:visited {
+	color: #fff;
+}
+
+.tcat a:hover,
+.tcat a:active {
+	color: #fff;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #111;
+}
+
+.popup_menu .popup_item:hover {
+	background: #333;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #333;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #333;
+	color: #fff;
+	border-color: #000;
+}
+		
+		
+		
+		

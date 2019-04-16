@@ -1,0 +1,240 @@
+/*
+ * MyBB: FA5Dark Frontend Theme 
+ *
+ * File: color_dawn.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #202020;
+}
+
+input[type=radio]:checked:after {
+    color: #d56c2c;
+}
+
+input[type=checkbox]:checked:before {
+    color: #d56c2c;
+}
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #d56c2c;
+	-webkit-box-shadow: inset 0 1px 1px rgb(213,108,44), 0 0 8px rgba(213,108,44, 0.8);
+	box-shadow: inset 0 1px 1px rgba(213,108,44, 0.8), 0 0 8px rgba(213,108,44, 0.8);
+}
+
+input.login {
+	border: 5px solid #d56c2c;
+
+}
+
+input.login:hover {
+	background: #d56c2c;
+}
+
+i.lostpwd {
+   color: #d56c2c;
+}
+
+i.printer {
+	color: #d56c2c;
+}
+
+i.sendto {
+	color: #d56c2c;
+}
+
+.tfoot a:hover, .tfoot a:active {
+	color: #d56c2c;
+	text-decoration: underline;
+}
+
+ul.thread_tools li.printable:after {
+	color: #d56c2c  !important;
+}
+
+ul.thread_tools li.sendthread:after {
+	color: #d56c2c  !important;
+}
+
+ul.thread_tools li.subscription_add:after {
+	color: #d56c2c  !important;
+}
+
+ul.thread_tools li.subscription_remove:after {
+	color: #d56c2c  !important;
+}
+
+ul.thread_tools li.poll:after {
+	color: #d56c2c  !important;
+}
+
+.trow1 a:hover, .trow1 a:active {
+	color: #d56c2c  !important;
+}
+
+.trow2 a:hover, .trow2 a:active {
+	color: #d56c2c  !important;
+}
+
+.usercp_nav_item::before {
+	color: #d56c2c  !important;
+}
+
+.modcp_nav_item:before{
+    color: #d56c2c  !important;
+}
+
+i.toplinks-portal {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-search {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-memberlist {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-calendar {
+	color: #FFFFFF !important;
+}
+
+i.toplinks-help {
+	color: #FFFFFF !important;
+}
+
+i.panel-register {
+	color: #98C78B !important;
+}
+
+i.panel-login {
+	color: #C49A38 !important;
+}
+
+i.panel-logout {
+	color: #98C78B !important;
+}
+
+i.panel-usercp {
+	color: #d56c2c  !important;
+}
+
+i.panel-modcp {
+	color: #d56c2c  !important;
+}
+
+i.panel-admincp {
+	color: #d56c2c  !important;
+}
+
+.sharethread a:link {
+	color: #d56c2c !important;
+}
+
+.sharethread a:visited {
+	color: #d56c2c !important;
+}
+
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #d56c2c !important;
+}
+
+.progress {
+	background: #d56c2c  url(../../../themes/FA5Dark/colors/dawn_thead.png) center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #d56c2c !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #d56c2c !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #A0A0A0 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #d56c2c;
+}
+
+#logo {
+	background: #d56c2c url(../../../themes/FA5Dark/colors/dawn_header.png) top left repeat-x;
+	border-bottom: 1px solid #011929;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #d56c2c url(../../../themes/FA5Dark/colors/dawn_thead.png) top left repeat-x;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #d56c2c;
+}
+
+.forum_on {
+color: #d56c2c;
+}
+
+.subforum_minion {
+	color: #d56c2c;
+}
+
+.thead {
+	background: #d56c2c url(../../../themes/FA5Dark/colors/dawn_thead.png) top left repeat-x;
+	border-bottom: 1px solid #9a4e20;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #9a4e20;
+}
+
+.popup_menu .popup_item:hover {
+	background: #f2a555;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #f2a555;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #f2a555;
+	color: #fff;
+	border-color: #9a4e20;
+}
+
+
+		
+		
+		
+		
