@@ -4,8 +4,40 @@
   color:white;
 }
 
+.gray_back{
+  background: rgba(89,89,89,.5)
+}
+
 h4{
   font-size: 300%;
+}
+
+ul, ol {
+  margin:0 0 0 10%;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.header{
+  padding-top: 10%;
+}
+
+
+.flex-container {
+  height: 100%;
+  width:  100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10%; */
+}
+
+.flex-container > div {
+  color: white;
+  width: 100px;
+  margin: 10px;
+  z-index: 3;
 }
 
 .pic-wrapper {
@@ -178,60 +210,8 @@ slideShow {  0% {
   margin:auto;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
-
-.centered{
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-}
-
-.title{
-  text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-  color:white;
-  z-index: 2;
-  position:absolute;
-  border-radius:50%;
-  font-size:500%;
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  left:0;
-  top:15%;
-}
-
-.hider{
-    overflow: hidden;
-    position: relative;
-}
-
-.rules_box1{
-  padding-left: 2.75%;
-  position:absolute;
-  left:5%;
-  top:20%;
-  background: rgba(89,89,89,.5);
-  width: 25%;
-  height: 600px;
-}
-.rules_box2{
-  padding-left: 2%;
-  position:absolute;
-  right:5%;
-  top:20%;
-  background: rgba(89,89,89,.5);
-  width: 25%;
-  height: 600px;
-}
-
 .rounded_img{
   width: 10%;
   height: 10%;
   border-radius: 25%;
-}
-
-ol,ul{
-    font-size: 150%;
-}
-li{
-  padding: 1%;
 }
