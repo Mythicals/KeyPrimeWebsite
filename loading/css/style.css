@@ -15,6 +15,14 @@ p{
   text-align: center;
 }
 
+.rounded_img{
+  width: 20%;
+  height: 20%;
+  border-radius: 25%;
+    padding: 2%;
+}
+
+
 .center_text{
   text-align: center;
 }
@@ -32,6 +40,8 @@ p{
   /* padding: 10%; */
   min-height: 500px;
 }
+
+
 
 .player_name{
   padding-top: 2%;
@@ -68,12 +78,6 @@ ul, ol {
   width:100px;
   margin:auto;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-}
-.rounded_img{
-  width: 20%;
-  height: 20%;
-  border-radius: 25%;
-  padding: 2%;
 }
 
 .pic-wrapper {
